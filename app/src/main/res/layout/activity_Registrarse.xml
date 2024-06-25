@@ -11,17 +11,17 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="392dp"
-        android:layout_height="436dp"
+        android:layout_width="393dp"
+        android:layout_height="286dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteX="-5dp"
         tools:layout_editor_absoluteY="-34dp">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="40dp"
             android:text="Registrarse"
             android:textColor="#00A4E7"
             android:textSize="55sp"
@@ -31,22 +31,22 @@
             tools:layout_editor_absoluteX="54dp" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="215dp"
-            android:layout_height="243dp"
-            app:srcCompat="@drawable/claqueta"
-            tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="153dp" />
+            android:id="@+id/imageView3"
+            android:layout_width="166dp"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/servicio_de_limpieza"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="89dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
-        android:layout_width="383dp"
-        android:layout_height="377dp"
+        android:layout_width="393dp"
+        android:layout_height="501dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
-        tools:layout_editor_absoluteX="4dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp">
 
         <EditText
             android:id="@+id/editTextText"
@@ -65,6 +65,38 @@
             tools:ignore="DuplicateIds" />
 
         <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/editext_background"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:text="Nombre"
+            android:textColorHint="#464646"
+            tools:ignore="DuplicateIds" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/editext_background"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:text="Apellido"
+            android:textColorHint="#464646"
+            tools:ignore="DuplicateIds" />
+
+        <EditText
             android:id="@+id/editTextText1"
             android:layout_width="match_parent"
             android:layout_height="55dp"
@@ -76,7 +108,7 @@
             android:ems="10"
             android:inputType="text"
             android:paddingStart="20dp"
-            android:text="Correo electronico"
+            android:text="Correo electrónico"
             android:textColorHint="#464646" />
 
         <EditText

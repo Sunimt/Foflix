@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
-            android:text="Iniciar sesion"
+            android:text="Iniciar sesión"
             android:textColor="#00A4E7"
             android:textSize="55sp"
             android:textStyle="bold"
@@ -32,11 +32,11 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="215dp"
-            android:layout_height="243dp"
-            app:srcCompat="@drawable/claqueta"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="190dp" />
+            android:layout_width="280dp"
+            android:layout_height="440dp"
+            app:srcCompat="@drawable/fofo"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="97dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -96,7 +96,7 @@
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/btn_orance"
-            android:text="Iniciar Sesion"
+            android:text="Iniciar sesión"
             android:textColor="#FFFFFF"
             android:textSize="25sp"
             android:textStyle="bold" />
